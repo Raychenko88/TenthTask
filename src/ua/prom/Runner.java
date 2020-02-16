@@ -13,7 +13,7 @@ public class Runner {
         String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "data";
         String url = "https://prom.ua/p960465027-omen-8750h16gb2401tbwin10-gtx1050ti.html";
         ProductModel product = ParserService.getProduct(url);
-        WriteInfo.writeToFile(filePath, product);
+        WriteInfo.writeToFile(product);
 
 //        LOGGER.info(product.toString());
 //        LOGGER.info(WriteInfo.getXmlObject(product));
